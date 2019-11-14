@@ -11,3 +11,11 @@
 - Operator Metering: Enable usage of resources within k8s and helps reporting them.
 - For container / cluster monitoring we can use k8s ServiceMonitor (Custom Resource)
 
+## Creating First Operator
+
+Install operator-sdk
+`brew install operator-sdk`
+
+- `operator-sdk new arc-operator`
+- `operator-sdk add api --api-version=arc.example.com/v1alpha1 --kind=ArcService`
+- 
